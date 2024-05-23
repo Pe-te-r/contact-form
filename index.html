@@ -33,30 +33,33 @@
       <div class="email">
         <label for="email">
           <input type="email" name="email" id="">
-          Email Address
+          <span>Email Address</span>
         </label>
         <!-- Please enter a valid email address -->
         <!-- This field is required -->
       </div>
 
       <div class="query">
-
-        
-        
-        Query Type
-        <label for="generalEnquiry">
-          <input type="radio" name="queryType" id="generalEnquiry" value="generalEnquiry">
-          General Enquiry
-        </label>
-        <label for="supportRequest">
-          <input type="radio" name="queryType" id="supportRequest" value="supportRequest">
-          Support Request
-        </label>
-        <!-- Please select a query type -->
+        <span class="queryTitle">Query Type</span>
+        <div>
+          
+          
+          
+          
+            <label for="generalEnquiry">
+            <input type="radio" name="queryType" id="generalEnquiry" value="generalEnquiry">
+            General Enquiry
+          </label>
+          <label for="supportRequest">
+            <input type="radio" name="queryType" id="supportRequest" value="supportRequest">
+            Support Request
+          </label>
+          <!-- Please select a query type -->
+        </div>
       </div>
       <div class="message">
-
-        <textarea name="" id=""></textarea>
+        
+        <textarea name="" id="" rows="10"></textarea>
         
         <span>Message</span>
         <!-- This field is required -->
@@ -64,13 +67,13 @@
       </div>
       <div class="checkButton">
 
-        I consent to being contacted by the team
+        <!-- I consent to being contacted by the team -->
         <!-- To submit this form, please consent to being contacted -->
         
       </div>
       <div class="submit">
-
-        Submit
+        <button>Submit</button>
+        
       </div>
       
       <!-- Message Sent! -->
