@@ -22,18 +22,21 @@
         <label for="firstName">
           <span>First Name</span>
           <input type="text" name="firstname" id="">
+          <span class="error">This field is required</span>
         </label>
         <!-- This field is required -->
         <label for="lastName">
-          <input type="text" name="lastName" id="">
           <span>Last Name</span>
+          <input type="text" name="lastName" id="">
+          <span class="error">This field is required</span>
         </label>
         <!-- This field is required -->
       </div>
       <div class="email">
         <label for="email">
-          <input type="email" name="email" id="">
           <span>Email Address</span>
+          <input type="email" name="email" id="">
+          <span class="error">Please enter a valid email address</span>
         </label>
         <!-- Please enter a valid email address -->
         <!-- This field is required -->
@@ -54,25 +57,34 @@
             <input type="radio" name="queryType" id="supportRequest" value="supportRequest">
             Support Request
           </label>
+
           <!-- Please select a query type -->
         </div>
+        <span class="error">This field is required</span>
+
       </div>
       <div class="message">
         
+        <span>Message</span>
         <textarea name="" id="" rows="10"></textarea>
         
-        <span>Message</span>
         <!-- This field is required -->
+        <span class="error">This field is required</span>
+
         
       </div>
       <div class="checkButton">
-
         <!-- I consent to being contacted by the team -->
         <!-- To submit this form, please consent to being contacted -->
-        
+        <div>
+          <input type="checkbox" name="" id="">
+          <span>I consent to being contacted by the team</span>
+        </div>
+        <!-- To submit this form, please consent to being contacted -->
+        <span class="error">This field is required</span>        
       </div>
       <div class="submit">
-        <button>Submitc</button>
+        <button id="submit">Submitc</button>
         
       </div>
       
@@ -83,4 +95,5 @@
   </main>
 
 </body>
+<script src="index.js"></script>
 </html>
