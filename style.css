@@ -183,4 +183,21 @@ main h3{
     background-color: hsl(169, 82%, 27%);
     color: antiquewhite;
     font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    main{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    
+    main{
+        /* border: 3px solid red; */
+        width: 90%;
+    }
+    
 }
